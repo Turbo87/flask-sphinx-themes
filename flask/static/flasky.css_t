@@ -419,6 +419,16 @@ a:hover tt {
     background: #EEE;
 }
 
+{% if theme_github_fork %}
+.github img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 0;
+    width: auto !important;
+}
+{% endif %}
+
 
 @media screen and (max-width: {{ page_width }}) {
 
